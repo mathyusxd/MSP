@@ -2,7 +2,7 @@
 a_name ZeroTier Service
 a_version 1.0
 a_author s1ngxl4rity
-
+/
 :section redefine_funcs
 c_exec for i in glob.glob("addons/*.py"):f=open(i,'r');exec(f.read(),globals());f.close()
 
